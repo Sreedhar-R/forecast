@@ -1,0 +1,40 @@
+.popup--back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-image:linear-gradient(45deg, rgb(220, 142, 41), rgb(236, 64, 12));
+    z-index: 50;
+}
+.popup--content{
+    width: 90%;
+    height:500px;
+    background-image:linear-gradient(45deg, rgb(187, 106, 30), rgb(191, 191, 191));
+    border-radius: 8px;
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.popup--close{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+h3{
+    font-family:cursive;
+}
+h3,p{
+    margin:auto;
+    margin-top: inherit;
+    display:grid;
+    justify-content: center;
+}
+.content{
+    align-content: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
